@@ -264,4 +264,300 @@ header .hero a img {
   letter-spacing: 0.7px;
   margin: 74px 58px;
 }
+
+.dhl1 {
+  color: #19bd9a;
+  font-weight: 700;
+}
+
+.dhl2 {
+  color: #636971;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.feattext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.feattext h3 {
+  color: #333b46;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 81px;
+}
+
+.feattext p {
+  width: 463px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+.featimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  right: 100px;
+  margin-top: 44px;
+}
+
+.featimg .feat1 {
+  width: 701px;
+  position: relative;
+  left: 2px;
+}
+
+.featimg .feat2 {
+  width: 336px;
+}
+
+.featimg .feat3 {
+  width: 334px;
+  right: 3px;
+  position: relative;
+}
+
+.featimg div {
+  height: 319px;
+}
+
+.featdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-image: url(../img/featbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -98px;
+  margin-right: -98px;
+  padding: 24px 169px;
+}
+
+.featdown p {
+  width: 753px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  text-align: left;
+  letter-spacing: 0.8px;
+}
+
+.featdown p span {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.featdown button {
+  border-radius: 19px;
+  border: 1px solid #ffffff;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 140px;
+  height: 37px;
+  margin-top: 15px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.services {
+  background-color: #f3f3f3;
+  padding-bottom: 77px;
+}
+
+.servtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.servtext h2 {
+  color: #333b46;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 81px;
+}
+
+.servtext p {
+  width: 463px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  margin-top: 19px;
+}
+
+.servhero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 43px 71px;
+}
+
+.servhero .shl button {
+  width: 53px;
+  height: 53px;
+  background-color: #81868e;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  border-radius: 45px;
+  margin-bottom: 17px;
+}
+
+.servhero .shl .shlbtnact {
+  background-color: #19bd9a;
+}
+
+.servhero .shc {
+  margin-right: 37px;
+  margin-top: -26px;
+}
+
+.servhero .shc h3 {
+  color: #464646;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  letter-spacing: 0.8px;
+}
+
+.servhero .shc .shc2 {
+  width: 399px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: left;
+  letter-spacing: 0.8px;
+  margin-top: 26px;
+}
+
+.servhero .shc .shc3 {
+  width: 402px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  text-align: left;
+  letter-spacing: 0.7px;
+  margin-top: 27px;
+}
+
+.servhero .shr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 54px;
+}
+
+.servhero .shr .shrperc {
+  width: 124px;
+  margin-top: 49px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1.25px;
+}
+
+.servhero .shr .shrperc span {
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.7px;
+  line-height: normal;
+}
+
+.servhero .shr .shrtext {
+  color: #81868e;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin-top: 67px;
+}
+
+.servhero .shr .shr1 {
+  background-image: url(../img/svr1.png);
+  background-repeat: no-repeat;
+  margin-right: 38px;
+}
+
+.servhero .shr .shr2 {
+  background-image: url(../img/svr2.png);
+  background-repeat: no-repeat;
+  margin-right: 42px;
+}
+
+.servhero .shr .shr3 {
+  background-image: url(../img/svr3.png);
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=main.css.map */
