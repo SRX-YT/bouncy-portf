@@ -131,3 +131,105 @@ header {
         bottom: 17px;
     }
 }
+
+.details {
+    background-color: #f3f3f3;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+
+    h2 {
+        color: #333b46;
+        font-family: "Source Sans Pro";
+        font-size: 20px;
+        font-weight: 300;
+        font-style: normal;
+        line-height: 12px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    p {
+        width: 463px;
+        color: #81868e;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 25px;
+        text-align: center;
+        letter-spacing: 0.7px;
+        margin-top: 19px;
+    }
+
+    .detaillist {
+        display: flex;
+        align-items: center;
+        margin-top: 42px;
+
+        div {
+            margin: 0px 14px;
+        }
+
+        button {
+            width: 53px;
+            height: 53px;
+            background-color: #81868e;
+            border: 0;
+            border-radius: 25px;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .btnactivate {
+            background-color: #19bd9a;
+        }
+    }
+}
+
+.detailshero {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 70px;
+    margin-top: 35px;
+    padding-bottom: 23px;
+
+    h3 {
+        color: #464646;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 0.8px;
+        padding-bottom: 6px;
+    }  
+}
+
+.detailsheroleft {
+    width: 327px;
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    text-align: left;
+    letter-spacing: 0.8px;
+}
+
+.detailsheroright {
+    width: 521px;
+    color: #81868e;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    text-align: left;
+    letter-spacing: 0.7px;
+    margin: 74px 58px;
+}
