@@ -560,4 +560,247 @@ header .hero a img {
   background-image: url(../img/svr3.png);
   background-repeat: no-repeat;
 }
+
+.impressed {
+  background-image: url(../img/impressedbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.im {
+  padding-bottom: 83px;
+}
+
+.im h2 {
+  color: #f3f3f3;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 12px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+  padding-top: 80px;
+}
+
+.im h4 {
+  color: #b2b3b3;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+}
+
+.im .imp1 {
+  width: 602px;
+  color: #b2b3b3;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  text-align: left;
+  letter-spacing: 0.8px;
+  margin-top: 54px;
+}
+
+.im .imp2 {
+  color: #b2b3b3;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  letter-spacing: 0.7px;
+  margin-top: 6px;
+}
+
+.im .imp2 a {
+  color: #19bd9a;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+}
+
+.im::before {
+  background-image: url(../img/impressedbefore.png);
+  background-repeat: no-repeat;
+  width: 409px;
+  height: 328px;
+  content: "";
+  position: absolute;
+  left: 1108px;
+  top: 3107px;
+}
+
+.portfolio {
+  margin-top: 1635px;
+}
+
+.teamblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 66px;
+}
+
+.teamblock h2 {
+  color: #333b46;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.teamblock p {
+  width: 463px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  margin-top: 18px;
+}
+
+.teamslider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 44px;
+}
+
+.teamsliderblock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+}
+
+.teamsliderblock img {
+  margin-right: 280px;
+}
+
+.teamsliderblock h2 {
+  color: #464646;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.8px;
+  text-align: right;
+  text-transform: none;
+}
+
+.teamsliderblock h3 {
+  color: #81868e;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  text-align: right;
+  margin-top: -4px;
+}
+
+.teamsliderblock p {
+  width: 371px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  letter-spacing: 0.7px;
+  margin-top: 23px;
+}
+
+.teamsliderblock h4 {
+  color: #81868e;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+.teamsliderblock .tsind {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teamsliderblock .tsind .tsindtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.teamsliderblock .tsbl {
+  position: relative;
+  right: 46px;
+}
+
+.teamsliderblock .tsbr {
+  margin-top: 15px;
+}
+
+.teamsliderhref {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.teamsliderhref button {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #19bd9a;
+  background-color: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.teamsliderhref .tshactive {
+  background-color: #19bd9a;
+}
 /*# sourceMappingURL=main.css.map */
