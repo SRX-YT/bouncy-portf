@@ -590,6 +590,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding-top: 66px;
+    padding-bottom: 96px;
 
     h2 {
         color: #333b46;
@@ -677,9 +678,28 @@ header {
     }
     .tsind {
         display: flex;
+        flex-direction: column;
+        margin-left: 41px;
 
         .tsindtext {
+            width: 330px;
             display: flex;
+            justify-content: space-between;
+
+            h4 {
+                margin-bottom: 0px;
+                margin-top: 23px;
+            }
+        }
+
+        .tsindbr {
+            position: relative;
+            bottom: 5px;
+            progress {
+                width: 330px;
+                height: 8px;
+            }
+            
         }
     }
     .tsbl {
@@ -694,6 +714,7 @@ header {
 .teamsliderhref {
     display: flex;
     align-items: center;
+    margin-top: 53px;
 
     button {
         width: 14px;
@@ -702,9 +723,298 @@ header {
         background-color: transparent;
         border-radius: 25px;
         cursor: pointer;
+        margin: 0px 3px;
+        outline: none;
     }
 
     .tshactive {
         background-color: #19bd9a;
+    }
+}
+
+.contactus {
+    background-image: url(../img/contactbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1366px 201px;
+    
+    .cuhero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 33px;
+        padding-bottom: 66px;
+
+        h3 {
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 0.8px;
+            margin-bottom: 39px;
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: 12px;
+            text-align: center;
+            border-radius: 19px;
+            border: 1px solid #ffffff;
+            padding: 7px 29px;
+        }
+    }
+}
+
+.testimonials {
+    background-color: #f3f3f3;
+
+    .tmhero {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 64px;
+        padding-bottom: 100px;
+
+        h2 {
+            color: #333b46;
+            font-family: "Source Sans Pro";
+            font-size: 20px;
+            font-weight: 300;
+            font-style: normal;
+            line-height: 12px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 21px;
+        }
+        p {
+            width: 463px;
+            color: #81868e;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: 0.7px;
+        }
+
+        .tmhmain {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            margin-top: 42px;
+            padding: 36px 110px;
+            padding-bottom: 56px;
+
+            .tmhslider {
+                display: flex;
+                justify-content: space-between;
+
+                p {
+                    width: 760px;
+                    color: #81868e;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 28px;
+                    text-align: left;
+                    letter-spacing: 0.8px;
+                }
+
+                h4 {
+                    color: #464646;
+                    font-family: "Open Sans";
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 20px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    letter-spacing: 0.56px;
+                    margin-top: 23px;
+
+                    span {
+                        color: #19bd9a;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                        font-style: normal;
+                        line-height: 20px;
+                        text-align: left;
+                        text-transform: uppercase;
+                        letter-spacing: 0.64px;
+                    }
+                }
+
+                img {
+                    margin-right: 61px;
+                    margin-top: 16px;
+                    position: relative;
+                    right: 9px;
+                }
+            }
+            .thmshref {
+                display: flex;
+                margin-top: 24px;
+                button {
+                    width: 10px;
+                    height: 14px;
+                    border: 1px solid #19bd9a;
+                    background-color: transparent;
+                    outline: none;
+                    cursor: pointer;
+                    border-radius: 25px;
+                    margin: 0px 3px;
+                }
+                .tmhactive {
+                    background-color: #19bd9a;
+                }
+            }
+        }        
+    }
+}
+
+.news {
+    background-image: url(../img/newsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1366px;
+    .nhero {
+        padding-top: 81px;
+        padding-bottom: 100px;
+        h2 {
+            color: #ffffff;
+            font-family: "Source Sans Pro";
+            font-size: 20px;
+            font-weight: 300;
+            font-style: normal;
+            line-height: 12px;
+            text-align: left;
+            letter-spacing: 4px;
+            margin-top: 0px;
+        }
+        p {
+            width: 463px;
+            color: #b2b3b3;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 25px;
+            text-align: left;
+            letter-spacing: 0.7px;
+            margin-top: 35px;
+        }
+
+        .nheroblock1 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 73px;
+            padding-left: 72px;
+
+            .nhb1l {
+                h3 {
+                    color: #e1e4e9;
+                    font-family: "Open Sans";
+                    font-size: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    text-align: left;
+                    letter-spacing: 0.8px;
+                    margin-bottom: 0px;
+                }
+                h4 {
+                    font-family: "Source Sans Pro";
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-style: italic;
+                    letter-spacing: normal;
+                    line-height: 25px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    color: #81868e;
+                    letter-spacing: 1.4px;
+                    margin-top: 3px;
+                    margin-bottom: 0px;
+                    span {
+                        color: #19bd9a;
+                        letter-spacing: 1.4px;
+                    }
+                }
+                h5 {
+                    color: #464646;
+                    font-family: "Source Sans Pro";
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-style: normal;
+                    line-height: 25px;
+                    text-align: left;
+                    letter-spacing: 1.4px;
+                    margin-top: 6px;
+                }
+                p {
+                    width: 586px;
+                    color: #81868e;
+                    font-family: "Open Sans";
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-style: normal;
+                    line-height: 25px;
+                    text-align: left;
+                    letter-spacing: 0.7px;
+                    margin-top: 46px;
+                }
+                button {
+                    background-color: transparent;
+                    outline: none;
+                    cursor: pointer;
+                    border: 0;
+                    padding: 0;
+                    margin-top: 33px;
+
+                    color: #b2b3b3;
+                    font-family: "Open Sans";
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 12px;
+                }
+            }
+
+            .nhb1r {
+                margin-top: 67px;
+                div {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                button {
+                    width: 10px;
+                    height: 14px;
+                    border: 1px solid #b2b3b3;
+                    background-color: transparent;
+                    outline: none;
+                    cursor: pointer;
+                    border-radius: 25px;
+                    margin: 2.6px 0px;
+                }
+
+                .nhb1ractive {
+                    background-color: #b2b3b3;
+                }
+            }
+        }
     }
 }
